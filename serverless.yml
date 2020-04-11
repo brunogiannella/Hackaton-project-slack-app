@@ -27,7 +27,7 @@ functions:
   hello:
     handler: handler.hello
     environment:
-      GROUP: rafabarbosa
+      GROUP: brunogia-hotelcompensa
     layers:
       - {Ref: SlackLambdaLayer}
     events:
